@@ -1,0 +1,339 @@
+{% extends 'components/base.html' %}
+{% load static %}
+{% block title %}
+<title>Qadri Sons | Online Store | Qadri Sons is a Beauty, Fashion and Lifestyle e-commerce shopping destination</title>
+<meta name="title" content="Arshman Akhter | Online Store | A. Arshman Akhter is a Beauty, Fashion and Lifestyle e-commerce shopping destination">
+<meta name="description" content="We are a dedicated team of professionals working hard to provide high-end western fashion from every part of the world to your doorstep in only 18-25 Days. From runway inspired clothing and handbags to collector’s dream list of watches, shoes and fragrances, www.qadrisons.com.au has everything to satisfy your thirst for fashion.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://qadrisons.com.au/">
+<meta property="og:title" content="Arshman Akhter | Online Store | A. Arshman Akhter is a Beauty, Fashion and Lifestyle e-commerce shopping destination">
+<meta property="og:description" content="We are a dedicated team of professionals working hard to provide high-end western fashion from every part of the world to your doorstep in only 18-25 Days. From runway inspired clothing and handbags to collector’s dream list of watches, shoes and fragrances, www.qadrisons.com.au has everything to satisfy your thirst for fashion.">
+<meta property="og:image" content="https://qadrisons.com.au{% static 'img/meta_img.png' %}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://qadrisons.com.au/">
+<meta property="twitter:title" content="Arshman Akhter | Online Store | A. Arshman Akhter is a Beauty, Fashion and Lifestyle e-commerce shopping destination">
+<meta property="twitter:description" content="We are a dedicated team of professionals working hard to provide high-end western fashion from every part of the world to your doorstep in only 18-25 Days. From runway inspired clothing and handbags to collector’s dream list of watches, shoes and fragrances, www.qadrisons.com.au has everything to satisfy your thirst for fashion.">
+<meta property="twitter:image" content="https://qadrisons.com.au{% static 'img/meta_img.png' %}">
+{% endblock title %}
+
+{% block main %}
+
+
+
+
+    <!-- Featured Start Desktop -->
+    <div class="container-fluid d-none d-lg-block d-md-block">
+        <div class="row px-xl-2 ">
+            <div class="col-lg-3 col-md-3 col-6 pb-1 px-1">
+                <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                    {% comment %} <h1 class="fa fa-check text-primary m-0 mr-3"></h1> {% endcomment %}
+                    <img src="{% static 'img/policy-icon1.png'%}" alt="">
+                    <div class="mx-2">
+                        <h6 class="font-weight-semi-bold m-0 text-first">FREE DELIVERY</h6>
+                        <small class="font-weight-semi-bold m-0 text-dark">Free shipping on all order</small>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6 pb-1 px-1">
+                <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                    {% comment %} <h1 class="fa fa-check text-primary m-0 mr-3"></h1> {% endcomment %}
+                    <img src="{% static 'img/policy-icon2.png'%}" alt="">
+                    <div class="mx-2">
+                        <h6 class="font-weight-semi-bold m-0 text-first">ONLINE SUPPORT 24/7</h6>
+                        <small class="font-weight-semi-bold m-0 text-dark">Support online 24 hours a day</small>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6 pb-1 px-1">
+                <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                    {% comment %} <h1 class="fa fa-check text-primary m-0 mr-3"></h1> {% endcomment %}
+                    <img src="{% static 'img/policy-icon3.png'%}" alt="">
+                    <div class="mx-2">
+                        <h6 class="font-weight-semi-bold m-0 text-first">MONEY RETURN</h6>
+                        <small class="font-weight-semi-bold m-0 text-dark">Back guarantee under 7 days</small>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6 pb-1 px-1">
+                <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                    {% comment %} <h1 class="fa fa-check text-primary m-0 mr-3"></h1> {% endcomment %}
+                    <img src="{% static 'img/policy-icon1.png'%}" alt="">
+                    <div class="mx-2">
+                        <h6 class="font-weight-semi-bold m-0 text-first">MEMBER DISCOUNT</h6>
+                        <small class="font-weight-semi-bold m-0 text-dark">Onevery order over $120.00</small>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured End Desktop -->
+    <!-- Featured Start Mobile -->
+    <div class="container-fluid d-lg-none d-md-none">
+        <div class="row  ">
+            <div class="col-lg-3 col-md-3 col-6 pb-1 px-1">
+                <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                    {% comment %} <h1 class="fa fa-check text-primary m-0 mr-3"></h1> {% endcomment %}
+                    <img src="{% static 'img/policy-icon1.png'%}" alt="">
+                    <small class="font-weight-semi-bold m-0 text-first mx-1">FREE DELIVERY</small>
+                    
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6 pb-1 px-1">
+                <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                    {% comment %} <h1 class="fa fa-check text-primary m-0 mr-3"></h1> {% endcomment %}
+                    <img src="{% static 'img/policy-icon2.png'%}" alt="">
+                    <small class="font-weight-semi-bold m-0 text-first mx-1">ONLINE SUPPORT 24/7</small>
+                    
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6 pb-1 px-1">
+                <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                    {% comment %} <h1 class="fa fa-check text-primary m-0 mr-3"></h1> {% endcomment %}
+                    <img src="{% static 'img/policy-icon3.png'%}" alt="">
+                    <small class="font-weight-semi-bold m-0 text-first mx-1">MONEY RETURN</small>
+                    
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6 pb-1 px-1">
+                <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                    {% comment %} <h1 class="fa fa-check text-primary m-0 mr-3"></h1> {% endcomment %}
+                    <img src="{% static 'img/policy-icon1.png'%}" alt="">
+                    <small class="font-weight-semi-bold m-0 text-first mx-1">MEMBER DISCOUNT</small>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured End Mobile -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 p-3">
+                <img src="{% static 'img/home1-banner1-1.jpg' %}" class="w-100" alt="" srcset="">
+                <img src="{% static 'img/home1-banner1-2.jpg' %}" class="w-100 mt-3" alt="" srcset="">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 p-3">
+                <img src="{% static 'img/home1-banner1-3.jpg' %}" class="w-100 " alt="" srcset="">
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 p-3">
+                <img src="{% static 'img/home1-banner1-4.jpg' %}" class="w-100" alt="" srcset="">
+                <img src="{% static 'img/home1-banner1-5.jpg' %}" class="w-100 mt-3" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories Start -->
+    <!--<div class="container-fluid pt-2">
+        <div class="text-center mb-4">
+            <h2 class="section-title px-5"><span class="px-2">Categories</span></h2>
+        </div>
+        <div class="row px-xl-5 pb-3">
+            {% for cat in categories %}
+            
+            
+            <div class="col-lg-2 col-md-3 col-4 pb-1 px-1">
+                <div class="cat-item d-flex flex-column border mb-4" style="padding: 5px;">
+                    
+                    <a href="{% url 'shop' %}?main-cat={{cat.id}}" class="cat-img position-relative overflow-hidden mb-3">
+                        <img class="img-fluid cat-img w-100" src="{{cat.image.url}}"   alt="">
+                    </a>
+                    <p class="font-weight-semi-bold  m-0 text-center">{{cat.title}}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>-->
+    <!-- Categories End -->
+
+
+   
+
+
+    <!-- Products Start -->
+    <div class="container-fluid pt-5">
+        <div class="text-center mb-4">
+            <h2 class="section-title px-5"><span class="px-2">New Arrival</span></h2>
+        </div>
+        <div class="row px-xl-5 pb-3">
+            {% for pr in trendy_product %}
+                {% include 'components/product.html' %}
+            {% endfor %}
+        </div>
+    </div>
+    <!-- Products End -->
+
+
+    <!-- Subscribe Start -->
+    <div class="container-fluid bg-secondary my-5">
+        <div class="row justify-content-md-center py-5 px-xl-5">
+            <div class="col-md-6 col-12 py-5">
+                <div class="text-center mb-2 pb-2">
+                    <h2 class="section-title px-5 mb-3"><span class="bg-secondary px-2">Stay Updated</span></h2>
+                    <p>Enter your Email to stay updated with our latest offers, news & sales</p>
+                </div>
+                <form action="" method="POST">
+                    <div class="input-group">
+                        <input type="email" class="form-control border-white p-4" required name="email" placeholder="Email Goes Here">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-primary px-4">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Subscribe End -->
+
+
+    <!-- Products Start -->
+    <div class="container-fluid pt-5">
+        <div class="text-center mb-4">
+            <h2 class="section-title px-5"><span class="px-2">Week Featured Products</span></h2>
+        </div>
+        <div class="row px-xl-5 pb-3">
+            {% for pr in new_product %}
+            {% include 'components/product.html' %}
+            {% endfor %}
+        </div>
+    </div>
+    <!-- Products End -->
+
+    <!-- Offer Start 
+    <div class="container-fluid offer pt-5">
+        <div class="row px-xl-5">
+            {% if offers|length > 2 %}
+                {% for offer in offers|slice:'2:4' %}
+                    {% if forloop.counter0 == 0 %}
+                        <div class="col-md-6 col-12 pb-4 px-1">
+                            <div class="position-relative bg-secondary text-center text-md-right text-white mb-2 " style="max-height:300px;background-image:url('{{offer.image.url}}');background-size:     cover;
+                            background-repeat:   no-repeat;
+                            background-position: center center; ">
+                                <div class="position-relative text-left py-5 px-5" style="z-index: 1;background-color:rgb(0,0,0,0.2);">
+                                    <h5 class="text-uppercase font-weight-semi-bold text-light mb-3">{{offer.sub_title}}</h5>
+                                    <h2 class="mb-4 font-weight-bold text-primary">{{offer.title}}</h2>
+                                    <a href="{% url 'shop' %}" class="btn btn-outline-light py-md-2 px-md-3">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    {% else %}
+                        <div class="col-md-6 col-12 pb-4 px-1">
+                            <div class="position-relative bg-secondary text-center text-md-left text-white mb-2 " style="max-height:300px;background-image:url('{{offer.image.url}}');background-size:     cover;
+                            background-repeat:   no-repeat;
+                            background-position: center center; ">
+                                
+                                <div class="position-relative w-100 text-right  py-5 px-5"  style="z-index: 1;background-color:rgb(0,0,0,0.4);" style="max-height:300px;">
+                                    <h5 class="text-uppercase font-weight-semi-bold text-light mb-3">{{offer.sub_title}}</h5>
+                                    <h2 class="mb-4 font-weight-bold text-primary">{{offer.title}}</h2>
+                                    <a href="{% url 'shop' %}" class="btn btn-outline-light py-md-2 px-md-3">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+     Offer End -->
+      <!-- Offer Start -->
+    <div class="container-fluid offer pt-5">
+        <div class="row ">
+            {% if offers %}
+                {% for offer in offers|slice:':1' %}
+                    {% if forloop.counter0 == 0 %}
+                        <div class=" col-12 pb-4  " >
+                            <div class="position-relative bg-secondary text-center text-md-right text-white mb-2 " 
+                            style="height:50vh;background-image:url('{{offer.image.url}}');background-size: cover;
+                            background-repeat:   no-repeat;
+                            background-position: center center; ">
+                                <div class="position-relative text-center py-5 px-5" style="z-index: 1;background-color:rgb(0,0,0,0.2);height:50vh;">
+                                    <h5 class="text-uppercase font-weight-semi-bold text-light mb-3 mt-5">{{offer.sub_title}}</h5>
+                                    <h2 class="mb-4 font-weight-bold text-primary">{{offer.title}}</h2>
+                                    <a href="{% url 'shop' %}" class="btn btn-outline-light py-md-2 px-md-3">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+    <!-- Offer End -->
+
+    <!-- Products Start -->
+    <div class="container-fluid pt-5">
+        <div class="text-center mb-4">
+            <h2 class="section-title px-5"><span class="px-2">Lower Rates</span></h2>
+        </div>
+        <div class="row px-xl-5 pb-3">
+            {% for pr in products_price %}
+            {% include 'components/product.html' %}
+            {% endfor %}
+        </div>
+    </div>
+    <!-- Products End -->
+
+    <div>
+        <a href="{% url 'shop' %}" class="btn btn-primary btn-block border-0 py-2 mx-auto  text-white" type="submit" style="width:150px">See More</a>
+    </div>
+
+    {% comment %} <div class="container-fluid py-5">
+        <img src="{% static 'img/brands-img.jpeg' %}" class="fluid-img w-100" style="max-height:60vh;">
+    </div> {% endcomment %}
+    <!-- Vendor Start -->
+    <div class="container-fluid py-5">
+        <div class="text-center mb-4">
+            <h2 class="section-title px-5"><span class="px-2">Brands</span></h2>
+        </div>
+        <div class="row px-lg-2 px-1">
+            <div class="col">
+                <div class="owl-carousel vendor-carousel">
+                    {% for brand in brands %}
+                    <div class="vendor-item col-12  px-0 text-center px-lg-3">
+                                <a href="{% url 'shop' %}?brand={{brand.id}}" class=" ">
+                                <img src="{{brand.image.url}}" class="w-100 h-100 rounded-circle border shadow" alt="">
+                                <hr class="w-25">
+                                <h6 class="font-weight-semi-bold">{{brand.title}}</h6>
+                            </a>
+                    </div>
+                    {% endfor %}
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vendor End -->
+
+
+
+
+
+
+{% endblock main %}
+
+{% block foot %}
+<script>
+    if(window.innerWidth < 500){
+        console.log("yes")
+        $('#navbar-vertical').removeClass('show');
+        
+    }
+    
+    $(window).on('resize', function(){
+        if(window.innerWidth < 500){
+            console.log("yes")
+            $('#navbar-vertical').removeClass('show');
+            
+        }
+    });
+</script>
+{% endblock foot %}
+
